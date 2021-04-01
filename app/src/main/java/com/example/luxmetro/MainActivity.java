@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView txtAtualProg = (TextView) findViewById(R.id.txtAtual);
                 TextView txtMaxProg = (TextView) findViewById(R.id.txtMax);
                 TextView txtMinProg = (TextView) findViewById(R.id.txtMin);
-                txtMaxProg.setText("Máx lx: " + max);
-                txtMinProg.setText("Min lx: " + min);
+                txtMaxProg.setText(max + " lx");
+                txtMinProg.setText(min + " lx");
                 txtAtualProg.setText(value + " lx");
 
             }
